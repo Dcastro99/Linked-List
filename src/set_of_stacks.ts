@@ -1,11 +1,6 @@
 export class SetOfStacks<T> {
   private stacks: Stack<T>[] = [];
 
-  // Must use the below Stack class internally.
-  // When you need to create a new stack, do so with:
-  //
-  //    let stack = new Stack<T>(this.maxHeight);
-  //
   constructor(private readonly maxHeight: number) {}
 
   push(t: T): void {

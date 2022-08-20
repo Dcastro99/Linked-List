@@ -3,7 +3,7 @@
 
 ## Whiteboard Process
 
-![Whiteboard](whiteboard-challenge6.png)
+![Whiteboard](/whiteboard-challenge6.png)
 
 ## Approach & Efficiency
 
