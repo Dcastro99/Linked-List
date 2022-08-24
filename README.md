@@ -65,3 +65,5 @@ We are moving and checking from one node to the next. if items are found continu
 - >[Linked-List-Zipped](./401/Linked-list-zipped.md)
 - >[Linked-List-Insertions](./401/Linked-List-Insertions.md)
 - >[Lisnked-Liste-kth](./401/Linked-List-kth)
+- >[Animal shelter](./401/stackShelter.md)
+- >[Brackets](./401/stack-queue-brackets.md)

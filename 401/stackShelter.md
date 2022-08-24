@@ -18,7 +18,7 @@
       + Return: either a dog or a cat, based on preference.
         + If `pref` is not `"dog"` or `"cat"` then return null.
 
-> ## Challenge 10
+> ## Challenge 12
 
 ## Approach & Efficiency
 used enqueue and dequeue funstions running if statements and for loops.
