@@ -60,7 +60,7 @@ We are moving and checking from one node to the next. if items are found continu
     - Returns: a string representing all the values in the Linked List, formatted as:
     - ```{ a } -> { b } -> { c } -> NULL```
 
-    ### Table Of Contents
+### Table Of Contents
 
 - >[Linked-List-Zipped](./401/Linked-list-zipped.md)
 - >[Linked-List-Insertions](./401/Linked-List-Insertions.md)
