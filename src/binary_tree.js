@@ -9,7 +9,7 @@ class Node {
     this.left = left; // A Node
     this.right = right; // A Node
   }
-
+  //PRE-ORDER>>>>>>>>>>>>>
   preOrder() {
     // Root, Left, Right
     // Return a single array
@@ -30,19 +30,16 @@ class Node {
 
     return traversal;
   }
-
+  //IN-ORDER>>>>>>>>>>>>>
   inOrder() {
     //Left, Root, Right
     let traversal = [];
     traversal.push(this.value); // Root
-
     if (this.left) {
       // Left
       let leftTraversal = this.left.inOrder();
       traversal = [...leftTraversal, ...traversal];
-
     }
-
     // Right
     if (this.right) {
       let rightTraversal = this.right.inOrder();
@@ -50,6 +47,7 @@ class Node {
     }
     return traversal;
   }
+  //POST-ORDER>>>>>>>>>>>>>
   postOrder() {
     //Left,Right, Root
     let traversal = [];
@@ -72,5 +70,19 @@ class Node {
   }
 }
 
+class BinaryTree {
+  constructor(root) {
+    this.root = root;
+  }
 
-module.exports = { Node };
+  preOrder() {
+    return this.root.preOrder();
+  }
+  inOrder() {
+    return this.root.inOrder();
+  }
+  postOrder() {
+    return this.root.postOrder();
+  }
+}
+module.exports = { Node, BinaryTree };
