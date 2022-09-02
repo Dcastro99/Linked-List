@@ -19,4 +19,6 @@ describe('Binary Search Tree', () => {
     expect(tree.contains(500)).toBe(false);
     expect(tree.contains(50)).toBe(false);
   });
+
 });
+
