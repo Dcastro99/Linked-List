@@ -61,7 +61,6 @@ class BinarySearchTree extends BinaryTree {
     if (this.root.value === value) {
       return true;
     }
-
     if (value < this.root.value && this.root.left) {
       return this.treeContains(this.root.left, value);
     } else if (value > this.root.value && this.root.right) {
@@ -70,8 +69,6 @@ class BinarySearchTree extends BinaryTree {
       return false;
     }
   }
-
-
 }
 
 
