@@ -5,9 +5,12 @@ const { Node1 } = require('./practice.js');
 
 describe('Binary Tree', () => {
   const tree = new BinaryTree1(
-    new Node1(
-      'to',
-      new Node1('dogs', new Node1('all'), new Node1('go')),
+    new Node1('to',
+
+      new Node1('dogs',
+
+        new Node1('all'), new Node1('go')),
+
       new Node1('heaven', undefined)
     )
   );
