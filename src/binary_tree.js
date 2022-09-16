@@ -85,6 +85,58 @@ class Node {
     return Math.max(...traversal);
   }
 
+  fizzBuzzNode(node) {
+    if (!node.value) {
+      return undefined;
+    }
+    if (node.value % 3 === 0 && node.value % 5 !== 0) {
+      node.value = 'Fizz';
+    }
+    if (node.value % 5 === 0 && node.value % 3 !== 0) {
+      node.value = 'Buzz';
+    }
+    if (node.value % 3 === 0 && node.value % 5 === 0) {
+      node.value = 'FizzBuzz';
+    } else {
+      return node.value += ''; // the secret way to make a string from a number
+    }
+
+  }
+
+
+  fizzBuzzTree() {
+
+    if (this.value === undefined) {
+      return;
+    }
+    // q = my queue
+    let q = [];
+    // arr = returns full array of how it was traversed.
+    let arr = [];
+    this.fizzBuzzNode(this);
+    // Create our queue and push our root node into it.
+    q.push(this);
+
+    // Continue searching through as queue as long as it's not empty.
+    while (q.length > 0) {
+      // Create a reference to currentNode, at the top of the queue.
+      let currentNode = q.shift();// Remove the currentNode from the queue.
+      this.fizzBuzzNode(currentNode);
+
+      arr.push(currentNode.value);
+      // If currentNode has a left child node, add it to the queue.
+      if (currentNode.left !== undefined) {
+        q.push(currentNode.left);
+      }
+      // If currentNode has a right child node, add it to the queue.
+      if (currentNode.right !== undefined) {
+        q.push(currentNode.right);
+      }
+    }
+    return arr;
+  }
+
+
 }
 
 class BinaryTree {
@@ -103,6 +155,13 @@ class BinaryTree {
   }
   max() {
     return this.root.max();
+  }
+  fizzBuzzNode() {
+    return this.root.fizzBuzzNode();
+  }
+
+  fizzBuzzTree() {
+    return this.root.fizzBuzzTree();
   }
 
 }
