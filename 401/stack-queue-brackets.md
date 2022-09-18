@@ -4,17 +4,16 @@
 
 ### Feature Task
 
-+ Write a function called validate brackets
-+ Arguments: string
-+ Return: boolean
-  + representing whether or not the brackets in the string are balanced
+- Write a function called validate brackets
+- Arguments: string
+- Return: boolean
+  - representing whether or not the brackets in the string are balanced
 
 ### There are 3 types of brackets:
 
-+ Round Brackets : `()`
-+ Square Brackets : `[]`
-+ Curly Brackets :`{}`
-
+- Round Brackets : `()`
+- Square Brackets : `[]`
+- Curly Brackets :`{}`
 
 > ## Challenge 13
 
@@ -26,7 +25,7 @@ used for loops, chartAt() and switch to achieve goal
 
 ## Whiteboard
 
-![Whiteboard](/whiteboard-challenge13.png)
+![Whiteboard](/Images/whiteboard-challenge13.png)
 
 ## contributors:
 

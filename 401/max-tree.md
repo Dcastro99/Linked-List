@@ -16,7 +16,7 @@ Find the maximum value stored in the tree. You can assume that the values stored
 
 ## Whiteboard Process
 
-![Whiteboard](/lab16-whiteboard.png)
+![Whiteboard](/Images/lab16-whiteboard.png)
 
 ## Approach & Efficiency
 
