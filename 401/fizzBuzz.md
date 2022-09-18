@@ -8,7 +8,7 @@
 
 ## Whiteboard Process
 
-![Whiteboard](/whiteboard18.png)
+![Whiteboard](/Images/whiteboard18.png)
 
 ## Approach & Efficiency
 

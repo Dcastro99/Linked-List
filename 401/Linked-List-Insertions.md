@@ -1,9 +1,8 @@
-
 > # Code Challenge 06
 
 ## Whiteboard Process
 
-![Whiteboard](/whiteboard-challenge6.png)
+![Whiteboard](/images/whiteboard-challenge6.png)
 
 ## Approach & Efficiency
 
@@ -11,11 +10,11 @@ I iterate through each node.
 
 ## Solution
 
- > ### Append:
+> ### Append:
 
 - append will take in and item.
-check the beginning of the linked list.
-iterate through the list and when list returns undefined, it appends new node
+  check the beginning of the linked list.
+  iterate through the list and when list returns undefined, it appends new node
 
 > ### Insert before
 

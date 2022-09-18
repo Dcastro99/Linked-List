@@ -14,7 +14,7 @@ create a breadth first function that traverses in a "level" order.
 
 ## Whiteboard Process
 
-![Whiteboard](/codeChallenge-17.png)
+![Whiteboard](/Images/codeChallenge-17.png)
 
 ## Approach & Efficiency
 
