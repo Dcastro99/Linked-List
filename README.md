@@ -27,15 +27,21 @@
   <!-- - `'hello'|'goodbye'` is either the JavaScript string `'hello'` or the string `'goodbye'`, and no other strings. -->
 
 # Singly Linked List
+
 <!-- Short summary or background information -->
+
 ```
 We are moving and checking from one node to the next. if items are found continue. If not found return false and stop.
 ```
+
 ## Challenge
+
 <!-- Description of the challenge -->
 
 ## Approach & Efficiency
+
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
 ### Node
 
 - Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node.
@@ -50,7 +56,7 @@ We are moving and checking from one node to the next. if items are found continu
   - insert
     - Arguments: value
     - Returns: nothing
-    - Adds a new node with that value to the ```head``` of the list with an O(1) Time performance.
+    - Adds a new node with that value to the `head` of the list with an O(1) Time performance.
   - includes
     - Arguments: value
     - Returns: Boolean
@@ -58,12 +64,13 @@ We are moving and checking from one node to the next. if items are found continu
   - to string
     - Arguments: none
     - Returns: a string representing all the values in the Linked List, formatted as:
-    - ```{ a } -> { b } -> { c } -> NULL```
+    - `{ a } -> { b } -> { c } -> NULL`
 
 ### Table Of Contents
 
-- >[Linked-List-Zipped](./401/Linked-list-zipped.md)
-- >[Linked-List-Insertions](./401/Linked-List-Insertions.md)
-- >[Lisnked-Liste-kth](./401/Linked-List-kth)
-- >[Animal shelter](./401/stackShelter.md)
-- >[Brackets](./401/stack-queue-brackets.md)
+- > [Linked-List-Zipped](./401/Linked-list-zipped.md)
+- > [Linked-List-Insertions](./401/Linked-List-Insertions.md)
+- > [Lisnked-Liste-kth](./401/Linked-List-kth)
+- > [Animal shelter](./401/stackShelter.md)
+- > [Brackets](./401/stack-queue-brackets.md)
+- > [Insertion Sort](./401/codeChallenge26.md)
