@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 function balancedBrackets(str) {
   let stack = [];
   for (let i = 0; i < str.length; i++) {
