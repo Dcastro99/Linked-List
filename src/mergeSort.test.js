@@ -1,6 +1,6 @@
 const mergeSort = require('./mergeSort');
 
-describe('insertion sort ', () => {
+describe('merge sort ', () => {
 
   it('merge and sorts array =>', () => {
     const array = [8, 4, 23, 42, 16, 15];
