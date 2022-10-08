@@ -74,3 +74,4 @@ We are moving and checking from one node to the next. if items are found continu
 - > [Animal shelter](./401/stackShelter.md)
 - > [Brackets](./401/stack-queue-brackets.md)
 - > [Insertion Sort](./401/codeChallenge26.md)
+- > [Merge Sort](./401/MergeSort.md)
