@@ -75,3 +75,4 @@ We are moving and checking from one node to the next. if items are found continu
 - > [Brackets](./401/stack-queue-brackets.md)
 - > [Insertion Sort](./401/codeChallenge26.md)
 - > [Merge Sort](./401/MergeSort.md)
+- > [MovieSort](./401/movies.md)
