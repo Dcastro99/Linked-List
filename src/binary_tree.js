@@ -47,6 +47,7 @@ class Node {
     }
     return traversal;
   }
+
   //POST-ORDER>>>>>>>>>>>>>
   postOrder() {
     //Left,Right, Root
@@ -66,6 +67,11 @@ class Node {
     }
     return traversal;
   }
+
+
+
+
+
 
   max() {
     let traversal = [];
@@ -139,6 +145,11 @@ class Node {
 
 }
 
+
+
+
+
+
 class BinaryTree {
   constructor(root) {
     this.root = root;
@@ -164,6 +175,8 @@ class BinaryTree {
     return this.root.fizzBuzzTree();
   }
 
+
+
 }
 
-module.exports = { Node, BinaryTree };
+module.exports = { Node, BinaryTree, };
