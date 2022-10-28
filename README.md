@@ -1,3 +1,15 @@
+### Table Of Contents
+
+- > [Linked-List-Zipped](./401/Linked-list-zipped.md)
+- > [Linked-List-Insertions](./401/Linked-List-Insertions.md)
+- > [Lisnked-Liste-kth](./401/Linked-List-kth)
+- > [Animal shelter](./401/stackShelter.md)
+- > [Brackets](./401/stack-queue-brackets.md)
+- > [Insertion Sort](./401/codeChallenge26.md)
+- > [Merge Sort](./401/MergeSort.md)
+- > [MovieSort](./401/movies.md)
+- > [treeIntersection](./401/treeIntersection.md)
+
 # Collection: Linked List
 
 [Assignment instructions](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/LAB)
@@ -65,14 +77,3 @@ We are moving and checking from one node to the next. if items are found continu
     - Arguments: none
     - Returns: a string representing all the values in the Linked List, formatted as:
     - `{ a } -> { b } -> { c } -> NULL`
-
-### Table Of Contents
-
-- > [Linked-List-Zipped](./401/Linked-list-zipped.md)
-- > [Linked-List-Insertions](./401/Linked-List-Insertions.md)
-- > [Lisnked-Liste-kth](./401/Linked-List-kth)
-- > [Animal shelter](./401/stackShelter.md)
-- > [Brackets](./401/stack-queue-brackets.md)
-- > [Insertion Sort](./401/codeChallenge26.md)
-- > [Merge Sort](./401/MergeSort.md)
-- > [MovieSort](./401/movies.md)
