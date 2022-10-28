@@ -35,3 +35,7 @@ function treeIntersection(binaryTree1, binaryTree2) {
   return matchedItems;
 }
 ```
+
+### Collaborators
+
+- Tony Regalado (the g.o.a.t.)
