@@ -9,6 +9,7 @@
 - > [Merge Sort](./401/MergeSort.md)
 - > [MovieSort](./401/movies.md)
 - > [treeIntersection](./401/treeIntersection.md)
+- > [repeatWord](./401/repeatWord.md)
 
 # Collection: Linked List
 
