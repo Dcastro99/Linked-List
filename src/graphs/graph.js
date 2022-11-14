@@ -16,6 +16,7 @@ class Graph {
     let edge = new Edge(end, weight);
     const neighbors = this.adjacencyList.get(start.value);
     neighbors.push(edge);
+
   }
 
   getNodes() {
