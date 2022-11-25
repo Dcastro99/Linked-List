@@ -61,6 +61,8 @@ class Graph {
   size() {
     return this.adjacencyList.size;
   }
+
+
 }
 
 module.exports = Graph;

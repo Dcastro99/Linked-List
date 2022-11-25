@@ -187,4 +187,32 @@ describe('Graph', () => {
 
     expect(graph.breadthFirstSearch(n1)).toEqual(['Pandora', 'Arendelle', 'Metroville', 'Monstroplolis', 'Narnia', 'Naboo']);
   });
+  it('returns a graph with two nodes and two edges. One edge points to itself', () => {
+    const graph = new Graph();
+
+    const n1 = new Node('Pandora');
+    const n2 = new Node('Arendelle');
+    const n3 = new Node('Metroville');
+    const n4 = new Node('Monstroplolis');
+    const n5 = new Node('Narnia');
+    const n6 = new Node('Naboo');
+    graph.addNode(n1);
+    graph.addNode(n2);
+    graph.addNode(n3);
+    graph.addNode(n4);
+    graph.addNode(n5);
+    graph.addNode(n6);
+
+
+    // graph.addEdge(n1, n2, 150);
+    graph.addEdge(n1, n3, 82);
+    // graph.addEdge(n2, n3, 99);
+    // graph.addEdge(n2, n4, 42);
+    // graph.addEdge(n3, n5, 37);
+    // graph.addEdge(n3, n6, 26);
+    // graph.addEdge(n3, n4, 105);
+    // graph.addEdge(n4, n6, 73);
+    // graph.addEdge(n5, n6, 250);
+    expect(graph.getNeighbors(n3)).toEqual([{ 'node': { 'value': 'Pandora' }, 'weight': 82 }]);
+  });
 });
